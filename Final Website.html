@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREEN GADGET RECYCLE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            overflow: hidden;
+            background-image: url("back.jpg");
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            
+            
+        }
+
+        h1 {
+            color: #e1e1e1f1; /* Green color for the title */
+            background-color: #45a049;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+        .backvideo{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+
+        }
+        .button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #3498db;
+      color: #ffffff;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      border: 2px solid #2980b9;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+    }
+
+    /* Change the button style on hover for better user feedback */
+    .button:hover {
+      background-color: #2980b9;
+    }
+        @media(min-aspect-ratio: 16/9){
+            .backvideo{
+                width:100%;
+                height:auto;
+            }
+        }
+      
+        
+
+       
+        
+    </style>
+</head>
+<body>
+    <video autoplay loop muted plays-inline class="backvideo">
+        <source src="C:\Users\Dhruv Tyagi\OneDrive\Desktop\Hackathon\video.mp4.mp4" type="video/mp4">
+    </video>
+    <header>
+        <h1><b><i><big><big>GREEN GADGET RECYCLE</big></big></i></b></h1>
+    </header>
+
+    <section>
+        <a href="C:\Users\Dhruv Tyagi\OneDrive\Desktop\Hackathon\E waste website (2)\E waste website\homepage .html" class="button">Click me</a>
+
+    </section>
+
+    <script>
+        function redirectToOtherPage() {
+            // Redirect to the desired webpage
+            window.location.href = "C:\Users\Dhruv Tyagi\OneDrive\Desktop\Hackathon\E waste website (2)\E waste website\homepage .html"; // Replace with your desired URL
+        }
+    </script>
+</body>
+</html>
