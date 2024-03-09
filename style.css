@@ -1,0 +1,50 @@
+body{
+    background-image: url(hh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100%; */
+    width: 98%;
+    height: 100%;
+}
+
+
+#top{
+    background-color: aliceblue;
+    display: flex;
+}
+
+.logo{
+    width: 10%;
+    height: 16%;
+    margin-left: 2%;
+}
+
+.home{
+    margin-left: 4%;
+    text-decoration: none;
+    margin-top: 5%;
+    font-size: large;
+    /* color: black;
+     */
+     color: #da2a2a;
+}
+
+.first{
+    margin-left: 38%;
+    text-decoration: none;
+    margin-top: 5%;
+    font-size: large;
+    color: black;
+}
+
+.second{
+    width: fit-content;
+}
+
+#second{
+    background-color: aliceblue;
+}
+
+#rd{
+    /* margin-top: 2% */
+}
